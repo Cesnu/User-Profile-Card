@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Profile Card</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<!-- Page Content Goes Here --> 
+		<section>
+			<div class="application">
+				<div class="card">
+					<div id="profile">
+						<img id="picture">
+						<div id="button">
+							<a href="">New</a>
+						</div>
+					</div>
+				</div>
+				<div id="name" class="iconcontent">
+					<p class="title">Hi, My name is</p>
+					<h2 id="name-info"></h2>
+				</div>
+				<div id="email" class="iconcontent">
+					<p class="title">My email address is</p>
+					<h2 id="email-info"></h2>
+				</div>
+				<div id="bday" class="iconcontent">
+					<p class="title">My birthday is</p>
+					<h2 id="bday-info"></h2>
+				</div>
+				<div id="address" class="iconcontent">
+					<p class="title">My address is</p>
+					<h2 id="address-info"></h2>
+				</div>
+				<div id="phone" class="iconcontent">
+					<p class="title">My phone number is</p>
+					<h2 id="phone-info"></h2>
+				</div>
+				<div id="password" class="iconcontent">
+					<p class="title">My password is</p>
+					<h2 id="password-info"></h2>
+				</div>
+				<div id="icon">
+					<div class="iconlinks active" onmouseover="openIcon(event, 'name')">
+						<i class="far fa-user"></i>
+					</div>
+					<div class="iconlinks" onmouseover="openIcon(event, 'email')">
+						<i class="far fa-envelope"></i>
+					</div>
+					<div class="iconlinks" onmouseover="openIcon(event, 'bday')">
+						<i class="far fa-calendar-alt"></i>
+					</div>
+					<div class="iconlinks" onmouseover="openIcon(event, 'address')">
+						<i class="fas fa-map-marked-alt"></i>
+					</div>
+					<div class="iconlinks" onmouseover="openIcon(event, 'phone')">
+						<i class="fas fa-phone"></i>
+					</div>
+					<div class="iconlinks" onmouseover="openIcon(event, 'password')">
+						<i class="fas fa-lock"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="assets/scripts/custom.js"></script>
+		<script src="https://kit.fontawesome.com/45316744bd.js"></script>
+	</body>
+</html>

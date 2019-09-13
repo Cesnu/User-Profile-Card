@@ -1,0 +1,99 @@
+*, 
+*::before,
+*::after {
+	box-sizing:border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.application {
+	margin: 0 auto;
+	max-width: 730px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+}
+
+.card {
+	height: 130px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+#profile {
+	padding-top: 20px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 1px solid #d3d3d3;
+}
+
+#button {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 0.875rem;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.iconcontent {
+	margin-top: 100px;
+}
+
+p {
+	margin: 0;
+	font-size: 1.125rem;
+	color: #999;
+}
+
+h2 {
+	margin: 5px 0 0;
+	font-size: 2.375rem;
+	letter-spacing: 0.05em;
+	color: #2c3e31;
+}
+
+#name-info, #address-info {
+	text-transform: capitalize;
+}
+
+
+#email, #bday, #address, #phone, #password {
+	display: none;
+}
+
+#icon {
+	margin: 40px 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#icon div.active {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #83ba43;
+}
+
+i {
+	font-size: 1.75rem;
+	margin: 20px;
+	color: #d3d3d3;
+}
